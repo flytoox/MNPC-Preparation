@@ -1,4 +1,3 @@
-#include <bits/stdc++.h> 
 /*
     Your Trie object will be instantiated and called as such:
     Trie* obj = new Trie();
@@ -9,6 +8,7 @@
 /*Problem Link
  https://www.codingninjas.com/studio/problems/complete-string_2687860
 */
+#include <bits/stdc++.h> 
 struct Node {
     struct Node *links[26];
     bool isEnd = 0;

@@ -1,6 +1,7 @@
 /*Problem Link
  https://leetcode.com/problems/design-add-and-search-words-data-structure/
 */
+#include <bits/stdc++.h> 
 struct Node {
     struct Node *links[26];
     bool isEnd=false;

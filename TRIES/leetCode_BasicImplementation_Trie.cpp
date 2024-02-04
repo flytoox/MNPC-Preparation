@@ -1,6 +1,7 @@
 /*Problem Link
  https://leetcode.com/problems/implement-trie-prefix-tree/
  */
+ #include <bits/stdc++.h> 
 struct Node {
     struct Node *links[26];
     bool isEnd = false;
