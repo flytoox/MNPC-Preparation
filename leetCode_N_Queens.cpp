@@ -27,8 +27,6 @@ public:
         return true;
     }
     void dfs(int j, vector<string> &v) {
-        for (auto &gg:v) cout << gg << endl;
-        cout << endl;
         if (j == NumberOfQueen) {res.push_back(v); return ;}
         for (int i = 0; i < v.size();i++) {
             if (goodPos(i, j, v)) v[i][j] = 'Q', dfs(j+1, v), v[i][j] = '.';
